@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <!-- Menu -->
+    <div class="navigation">
+        <nav>
+            <div class="title-container">
+                <h2 class="menu-title">Company</h2>
+            </div>
+            <div class="menu-wrapper">
+                <ul class="menu">
+                    <!-- Menu item dashboard -->
+                    <li class="menu-item">
+                        <a class="menu-link" href="index.html">
+                            <svg class="menu-link__icon" height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h48v48h-48z" fill="none"/>
+                                <path class="color-icon" fill="gray" d="M6 26h16v-20h-16v20zm0 16h16v-12h-16v12zm20 0h16v-20h-16v20zm0-36v12h16v-12h-16z"/>
+                            </svg>
+                            <span class="menu-link__text">Dashboard</span>
+                        </a>
+                    </li>
+                    <!-- Menu item user profile -->
+                    <li class="menu-item">
+                        <a class="menu-link" href="form/form.html">
+                            <svg class="menu-link__icon" height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path class="color-icon" fill="gray" d="M24 8c-4.42 0-8 3.58-8 8 0 4.41 3.58 8 8 8s8-3.59 8-8c0-4.42-3.58-8-8-8zm0 20c-5.33 0-16 2.67-16 8v4h32v-4c0-5.33-10.67-8-16-8z"/>
+                                <path d="M0 0h48v48h-48z" fill="none"/>
+                            </svg>
+                            <span class="menu-link__text">User Profile</span>
+                        </a>
+                    </li>
+                    <!-- Menu item maps -->
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">
+                            <svg class="menu-link__icon" height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path class="color-icon" fill="gray" d="M24 4c-7.73 0-14 6.27-14 14 0 10.5 14 26 14 26s14-15.5 14-26c0-7.73-6.27-14-14-14zm0 19c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/>
+                                <path d="M0 0h48v48h-48z" fill="none"/>
+                            </svg>
+                            <span class="menu-link__text">Maps</span>
+                        </a>
+                    </li>
+                    <!-- Menu item notifications -->
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">
+                            <svg class="menu-link__icon" height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h48v48h-48z" fill="none"/>
+                                <path class="color-icon" fill="gray" d="M36 14l-2.83-2.83-12.68 12.69 2.83 2.83 12.68-12.69zm8.49-2.83l-21.18 21.17-8.34-8.34-2.83 2.83 11.17 11.17 24-24-2.82-2.83zm-43.66 15.66l11.17 11.17 2.83-2.83-11.17-11.17-2.83 2.83z"/>
+                            </svg>
+                            <span class="menu-link__text">Notifications</span>
+                        </a>
+                    </li>
+                    <!-- Menu item support -->
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">
+                            <svg class="menu-link__icon" height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h48v48h-48z" fill="none"/>
+                                <path class="color-icon" fill="gray" d="M23.99 4c-11.05 0-19.99 8.95-19.99 20s8.94 20 19.99 20c11.05 0 20.01-8.95 20.01-20s-8.96-20-20.01-20zm13.85 12h-5.9c-.65-2.5-1.56-4.9-2.76-7.12 3.68 1.26 6.74 3.81 8.66 7.12zm-13.84-7.93c1.67 2.4 2.97 5.07 3.82 7.93h-7.64c.85-2.86 2.15-5.53 3.82-7.93zm-15.48 19.93c-.33-1.28-.52-2.62-.52-4s.19-2.72.52-4h6.75c-.16 1.31-.27 2.64-.27 4 0 1.36.11 2.69.28 4h-6.76zm1.63 4h5.9c.65 2.5 1.56 4.9 2.76 7.13-3.68-1.26-6.74-3.82-8.66-7.13zm5.9-16h-5.9c1.92-3.31 4.98-5.87 8.66-7.13-1.2 2.23-2.11 4.63-2.76 7.13zm7.95 23.93c-1.66-2.4-2.96-5.07-3.82-7.93h7.64c-.86 2.86-2.16 5.53-3.82 7.93zm4.68-11.93h-9.36c-.19-1.31-.32-2.64-.32-4 0-1.36.13-2.69.32-4h9.36c.19 1.31.32 2.64.32 4 0 1.36-.13 2.69-.32 4zm.51 11.12c1.2-2.23 2.11-4.62 2.76-7.12h5.9c-1.93 3.31-4.99 5.86-8.66 7.12zm3.53-11.12c.16-1.31.28-2.64.28-4 0-1.36-.11-2.69-.28-4h6.75c.33 1.28.53 2.62.53 4s-.19 2.72-.53 4h-6.75z"/>
+                            </svg>
+                            <span class="menu-link__text">Support</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Dashboard -->
+    <section class="dashboard-section">
+        <div class="title-container">
+            <!-- Hamburger for the mobile version of the site -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <h2 class="dashboard-title">Dashboard</h2>
+        </div>
+        <!-- Cards -->
+        <div class="cards-wrapper">
+            <!-- Card container 1-->
+            <div class="card-container">
+                <!-- Used Space Card -->
+                <div class="card used-space-card">
+                    <div class="image-wrapper">
+                        <img class="img-card" src="images/data.svg" alt="data">
+                    </div>
+                    <div class="basic-info-card">
+                        <p class="basic-info-card__title">Used Space</p>
+                        <p class="basic-info-card__data">49/50 GB</p>
+                    </div>
+                    <div class="additional-action">
+                        <img class="additional-action__icon" src="icons/alert.png" alt="alert">
+                        <p class="additional-action__text">Get more space...</p>
+                    </div>
+                </div>
+                <!-- Revenue Card -->
+                <div class="card revenue-card">
+                    <div class="image-wrapper">
+                        <img class="img-card" src="images/shop.svg" alt="shop">
+                    </div>
+                    <div class="basic-info-card">
+                        <p class="basic-info-card__title">Revenue</p>
+                        <p class="basic-info-card__data">$ 34,245</p>
+                    </div>
+                    <div class="additional-action">
+                        <img class="additional-action__icon" src="icons/calendar.png" alt="calendar">
+                        <p class="additional-action__text">Last 24 Hours</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card container 2-->
+            <div class="card-container">
+                <!-- Fixed Issues Card -->
+                <div class="card fixed-issues-card">
+                    <div class="image-wrapper">
+                        <img class="img-card" src="images/tag.svg" alt="tag">
+                    </div>
+                    <div class="basic-info-card">
+                        <p class="basic-info-card__title">Fixed Issues</p>
+                        <p class="basic-info-card__data">75</p>
+                    </div>
+                    <div class="additional-action">
+                        <img class="additional-action__icon" src="icons/down.png" alt="down">
+                        <p class="additional-action__text">Tracked from Github</p>
+                    </div>
+                </div>
+                <!-- Followers Card -->
+                <div class="card followers-card">
+                    <div class="image-wrapper">
+                        <img class="img-card" src="images/paperplane.svg" alt="paperplane">
+                    </div>
+                    <div class="basic-info-card">
+                        <p class="basic-info-card__title">Followers</p>
+                        <p class="basic-info-card__data">+ 245</p>
+                    </div>
+                    <div class="additional-action">
+                        <img class="additional-action__icon" src="icons/time.png" alt="time">
+                        <p class="additional-action__text">Just updated</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Information blocks -->
+        <div class="info-blocks-wrapper">
+            <!-- Information block 1 -->
+            <div class="info-block">
+                <div class="info-block__img">
+                    <img class="daily-sales-graph" src="images/graphics.svg" alt="graphics">
+                </div>
+                <div class="info-block__data">
+                    <p class="info-block__data__title">Daily Sales</p>
+                    <p class="info-block__data__text">55% increase in today sales</p>
+                </div>
+                <div class="info-block__last-update">
+                    <img src="icons/time.png" alt="">
+                    <p>updated 4 minutes ago</p>
+                </div> 
+            </div>
+            <!-- Information block 2 -->
+            <div class="info-block">
+                <div class="info-block__img">
+                    <img class="email-graph" src="images/graphics.svg" alt="graphics">
+                </div>
+                <div class="info-block__data">
+                    <p class="info-block__data__title">Email Subscriptions</p>
+                    <p class="info-block__data__text">Last Campaign Performance</p>
+                </div>
+                <div class="info-block__last-update">
+                    <img src="icons/time.png" alt="">
+                    <p>campaign sent 2 days ago</p>
+                </div>
+            </div>
+            <!-- Information block 3 -->
+            <div class="info-block">
+                <div class="info-block__img">
+                    <img class="tasks-graph" src="images/graphics.svg" alt="graphics">
+                </div>
+                <div class="info-block__data">
+                    <p class="info-block__data__title">Campleted Tasks</p>
+                    <p class="info-block__data__text">Last Campaign Performance</p>
+                </div>
+                <div class="info-block__last-update">
+                    <img src="icons/time.png" alt="">
+                    <p>campaign sent 2 days ago</p>
+                </div>
+            </div>
+        </div>
+        <!-- Statistics and Tasks -->
+        <div class="statistics-and-tasks">
+            <!-- Task editing block -->
+            <div class="tasks-block-wrapper">
+                <!-- Menu task editing block -->
+                <div class="menu-tasks-wrapper">
+                    <p class="tasks-block-title">Tasks:</p>
+                    <ul class="menu-tasks">
+                        <li class="menu-tasks__item">
+                            <a class="menu-tasks__link" href="#">
+                                <img src="icons/bug.svg" alt="bug">
+                                <span>Bags</span> 
+                            </a>
+                        </li >
+                        <li class="menu-tasks__item">
+                            <a class="menu-tasks__link" href="#">
+                                <img src="icons/web.svg" alt="web">
+                                <span>Website</span>                          
+                            </a>
+                        </li>
+                        <li class="menu-tasks__item">
+                            <a class="menu-tasks__link" href="#">
+                                <img src="icons/cloud.svg" alt="cloud">
+                                <span>Server</span> 
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Editing block wrapper -->
+                <div class="editing-block">
+                    <div class="editing-block__item">
+                        <label>
+                            <input type="checkbox">
+                            <span>Sign contract for "What are conference organizers afraid of?"</span>
+                        </label>
+                        <div class="editing-block__icons">
+                            <img src="icons/edit.png" alt="edit">
+                            <img src="icons/remove.png" alt="remove">
+                        </div>
+                    </div>
+                    <div class="editing-block__item">
+                        <label>
+                            <input type="checkbox">
+                            <span>Lines From Great Russian Literature? Or E-mails From My Boss?</span> 
+                        </label>
+                        <div class="editing-block__icons">
+                            <img src="icons/edit.png" alt="edit">
+                            <img src="icons/remove.png" alt="remove">                            
+                        </div>
+                    </div>
+                    <div class="editing-block__item">
+                        <label>
+                            <input type="checkbox">
+                            <span>Sign contract for "What are conference organizers afraid of?"</span>
+                        </label>
+                        <div class="editing-block__icons">
+                            <img src="icons/edit.png" alt="edit">
+                            <img src="icons/remove.png" alt="remove">                            
+                        </div>
+                    </div>
+                    <div class="editing-block__item">
+                        <label>
+                            <input type="checkbox">
+                            <span>Sign contract for "What are conference organizers afraid of?"</span>
+                        </label>
+                        <div class="editing-block__icons">
+                            <img src="icons/edit.png" alt="edit">
+                            <img src="icons/remove.png" alt="remove">                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Statistics block wrapper -->
+            <div class="statistics-block-wrapper">
+                <div class="statistics-block__title-container">
+                    <p class="statistics-block__title">Employees Stats</p>
+                    <p class="statistics-block__text">New employees on 19th September, 2019</p>
+                </div>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Salary</th>
+                                <th>Country</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Dakota Rice</td>
+                                <td>$36.738</td>
+                                <td>Canada</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Dakota Rice</td>
+                                <td>$36.738</td>
+                                <td>Canada</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Dakota Rice</td>
+                                <td>$36.738</td>
+                                <td>Canada</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Dakota Rice</td>
+                                <td>$36.738</td>
+                                <td>Canada</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer class="footer-section">
+        <div class="footer-content">
+            <div class="footer-nav-wrapper">
+                <ul class="footer-nav">
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">ABOUT</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">BLOG</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">LICENSES</a></li>
+                </ul>
+            </div>
+            <div class="copyright-container">
+                <p class="copyright-text">2023-made with love</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Burger scripts on the website -->
+    <script>
+        let hamburger = document.querySelector('.hamburger');
+        let navigation = document.querySelector('.navigation'); 
+
+        hamburger.addEventListener('click', function(){
+            navigation.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
